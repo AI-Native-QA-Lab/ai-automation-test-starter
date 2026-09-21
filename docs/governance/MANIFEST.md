@@ -1,0 +1,32 @@
+# Documentation Manifest
+
+-   `AGENTS.md`
+-   `CONTRIBUTING.md`
+-   `LICENSE`
+-   `README.md`
+-   `SECURITY.md`
+-   `docs/architecture/ARCHITECTURE.md`
+-   `docs/architecture/AI_RUNTIME.md`
+-   `docs/architecture/FRAMEWORK_ADAPTERS.md`
+-   `docs/architecture/QUALITY_GATE.md`
+-   `docs/engineering/IMPLEMENTATION_PLAN.md`
+-   `docs/engineering/TDD_STRATEGY.md`
+-   `docs/governance/GITHUB_PROJECT_SETUP.md`
+-   `docs/governance/DECISIONS.md`
+-   `docs/governance/MANIFEST.md`
+-   `docs/i18n/DOCUMENTATION_POLICY.md`
+-   `docs/process/2026-09-21-provider-contract.zh-CN.md`
+-   `docs/process/2026-09-21-v0.1-completion.zh-CN.md`
+-   `docs/process/plans/2026-09-20-mvp-bootstrap-implementation-plan.md`
+-   `docs/process/plans/2026-09-21-directory-organization.md`
+-   `docs/product/LEARNING_EXPERIENCE.md`
+-   `docs/product/MVP_PLAN.md`
+-   `docs/product/PROJECT_CHARTER.md`
+-   `docs/product/ROADMAP.md`
+-   `docs/research/COMPETITIVE_LANDSCAPE.md`
+-   `docs/README.md`
+-   `docs/zh-CN/README.md`
+-   `docs/zh-CN/PROJECT_CHARTER.md`
+-   `docs/zh-CN/MVP_PLAN.md`
+-   `docs/zh-CN/DOCUMENTATION_POLICY.md`
+-   `docs/process/2026-09-20-bootstrap-progress.zh-CN.md`
