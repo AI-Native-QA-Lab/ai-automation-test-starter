@@ -1,0 +1,40 @@
+{
+  "name": "ai-automation-test-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Beginner-first, AI-native test automation learning and engineering kit.",
+  "license": "LicenseRef-PolyForm-Noncommercial-1.0.0",
+  "packageManager": "pnpm@12.4.2",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "aits": "tsx apps/cli/src/index.ts",
+    "build": "pnpm typecheck",
+    "lint": "eslint . --max-warnings 0",
+    "typecheck": "tsc -p tsconfig.base.json --noEmit",
+    "test": "vitest run",
+    "test:contract": "vitest run packages/contracts packages/context packages/quality packages/ai-runtime packages/provider-openai-compatible workflows/learn workflows/build workflows/debug workflows/review workflows/ship adapters",
+    "test:architecture": "vitest run tests/architecture",
+    "test:e2e": "vitest run tests/e2e",
+    "test:docs": "vitest run tests/docs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@aits/ai-runtime": "workspace:*",
+    "@aits/cli": "workspace:*",
+    "@aits/provider-openai-compatible": "workspace:*",
+    "@aits/workflow-build": "workspace:*",
+    "@aits/workflow-debug": "workspace:*",
+    "@aits/workflow-learn": "workspace:*",
+    "@aits/workflow-review": "workspace:*",
+    "@aits/workflow-ship": "workspace:*",
+    "@types/node": "^22.10.5",
+    "eslint": "^9.17.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.19.1",
+    "vitest": "^2.1.9",
+    "zod": "^3.24.2"
+  }
+}

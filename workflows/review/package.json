@@ -1,0 +1,16 @@
+{
+  "name": "@aits/workflow-review",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@aits/contracts": "workspace:*",
+    "@aits/quality": "workspace:*"
+  }
+}
